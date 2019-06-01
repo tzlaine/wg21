@@ -343,13 +343,14 @@ references:
   - `pandoc` (>= 2.7)
   - `pandoc-citeproc`
   - `python3`
-  - `panflute`
+  - `python3-pip`
+  - `panflute` (installed via `pip3`)
 
 ### OS X
 
 ```bash
 brew cask install mactex
-brew install pandoc pandoc-citeproc python
+brew install pandoc pandoc-citeproc python wget
 pip3 install panflute
 ```
 
